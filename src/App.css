@@ -1,0 +1,107 @@
+h1 {
+  font-family: 'Merriweather';
+}
+
+header {
+  text-align: center;
+}
+
+.text-container {
+  margin: 20px;
+  padding-top: 10px;
+}
+
+.text {
+  font-family: 'Merriweather';
+  font-size: 46px;
+  line-height: 50px;
+  margin-bottom: 30px;
+  background: #ffffff00;
+  /* background: linear-gradient(to bottom, #BBB9FA 34%, #0018B8 100%); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.5px black;
+}
+
+.question {
+  text-align: center;
+  font-family:'Aleo';
+  font-size: 54px;
+  line-height: 60px;
+  font-weight: bold;
+  background: #ffffff00;
+/* background: linear-gradient(to bottom, #BBB9FA 34%, #0018B8 100%); */
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+-webkit-text-stroke: 0.5px black;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .question {
+    animation: App-logo-spin 4s linear 5 forwards;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+  }
+  .text {
+    animation: App-logo-spin 5s linear 15 forwards;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+  }
+}
+
+.bg {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url("./media/wallpaperbetter.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  background-position:0px, -10px;
+  opacity: 0.7;
+}
+
+.video-container {
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: 270px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: 2s;
+}
+
+@keyframes App-logo-spin {
+  /* from {
+    background: rgba(0, 0, 0, 0%);
+  } */
+  to {
+    background: #ffffff;;
+    -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  }
+}
+
+.opa {
+  opacity: 0;
+  transition: 1s;
+}
+
+.text {
+  top: 100px;
+}
+
+@media (min-width:801px){
+  .text {
+    top: 270px;
+    padding: 90px;
+    width: auto;
+  }
+
+}
+
+.avideo {
+  z-index: 1;
+}
