@@ -15,6 +15,7 @@ header {
   font-family: 'Merriweather';
   font-size: 46px;
   line-height: 50px;
+  font-weight:900;
   margin-bottom: 30px;
   background: #ffffff00;
   /* background: linear-gradient(to bottom, #BBB9FA 34%, #0018B8 100%); */
@@ -59,7 +60,7 @@ header {
   background-size:cover;
   background-attachment: fixed;
   background-position:0px, -10px;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 .video-container {
@@ -78,7 +79,7 @@ header {
     background: rgba(0, 0, 0, 0%);
   } */
   to {
-    background: #ffffff;;
+    background: #e3e2ec;;
     -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
   }
