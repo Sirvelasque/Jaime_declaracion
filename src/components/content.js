@@ -18,15 +18,15 @@ const Content = () => {
     setTimeout (() => {
       setTic("opa");
       setVc("");
-    }, 4000)
+    }, 6000)
     setTimeout (() => {
       setVc("opa");
       setTc("");
-    }, 10000)
+    }, 245000)
     setTimeout (() => {
       setTc("opa");
       setQc("");
-    }, 16000)
+    }, 260000)
   }, [])
 
   return (

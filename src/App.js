@@ -1,4 +1,3 @@
-import Header from './components/Header';
 import Content from './components/content';
 import Rouces from './components/footer';
 import './App.css';
